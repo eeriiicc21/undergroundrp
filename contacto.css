@@ -43,6 +43,12 @@ h2 {
     object-fit: cover; /* Asegura que la imagen se ajuste sin distorsionarse */
 }
 
+.banner img {
+    width: 100%;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Corte diagonal ajustado */
+}
+
 .team-member h3 {
     color: #333;
     margin: 10px 0 5px;
