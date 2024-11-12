@@ -111,7 +111,7 @@ hr {
 .banner img {
     width: 100%;
     height: auto;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); /* Corte diagonal ajustado */
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Corte diagonal ajustado */
 }
 
 .white-container {
